@@ -6,7 +6,7 @@ namespace Tracer
 {
     public class ThreadResult
     {
-        private int id;
+        public int id;
         private TimeSpan _time = new TimeSpan(0);
         private List<MethodResult> methodsResults = new List<MethodResult>();
 
@@ -27,7 +27,7 @@ namespace Tracer
         }
         public void InsertMethodResult(MethodResult methodResult, List<(string, string)> methodsClasses)
         {
-            (MethodResult, int) callingMethod = FindMethodInStack(methodsClasses);
+            (MethodResult, int) callingMethod = FindMethodInStack(methodsClasses, 0);
             if (callingMethod.Item1 != null)
                 callingMethod.Item1.InsertMethodResult(methodResult, methodsClasses, callingMethod.Item2 - 1);
             else
@@ -35,9 +35,14 @@ namespace Tracer
         }
         public void StopTrace(DateTime stopTime, List<(string, string)> methodsClasses)
         {
-            (MethodResult, int) callingMethod = FindMethodInStack(methodsClasses, 0);
+            (MethodResult, int) callingMethod = FindMethodInStack(methodsClasses);
 
             _time += callingMethod.Item1.StopTrace(stopTime, methodsClasses, callingMethod.Item2 - 1);
+        }
+
+        public ThreadResult(int threadId)
+        {
+            id = threadId;
         }
     }
 }

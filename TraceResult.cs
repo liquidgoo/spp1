@@ -7,18 +7,40 @@ namespace Tracer
     {
         private List<ThreadResult> threadsResults = new List<ThreadResult>();
 
-        public void InsertMethodResult(MethodResult methodResult, List<(string, string)> methodsClasses)
+        public void InsertMethodResult(MethodResult methodResult, List<(string, string)> methodsClasses, int threadId)
         {
-            threadsResults[0].InsertMethodResult(methodResult, methodsClasses);
+            ThreadResult currentThread = null;
+            foreach (ThreadResult threadResult in threadsResults)
+            {
+                if (threadId == threadResult.id)
+                {
+                    currentThread = threadResult;
+                    break;
+                }
+            }
+            if (currentThread == null)
+            {
+                currentThread = new ThreadResult(threadId);
+                threadsResults.Add(currentThread);
+            }
+            currentThread.InsertMethodResult(methodResult, methodsClasses);
         }
 
-        public void StopTrace(DateTime stopTime, List<(string, string)> methodsClasses)
+        public void StopTrace(DateTime stopTime, List<(string, string)> methodsClasses, int threadId)
         {
-            threadsResults[0].StopTrace(stopTime, methodsClasses);
+            ThreadResult currentThread = null;
+            foreach (ThreadResult threadResult in threadsResults)
+            {
+                if (threadId == threadResult.id)
+                {
+                    currentThread = threadResult;
+                    break;
+                }
+            }
+            currentThread.StopTrace(stopTime, methodsClasses);
         }
         public TraceResult()
         {
-            threadsResults.Add(new ThreadResult());
         }
     }
 }
