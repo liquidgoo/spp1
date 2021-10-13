@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Reflection;
+using System.Threading;
 
 namespace Tracer
 {
-    class Tracer : ITracer
+    public class Tracer : ITracer
     {
-        private TraceResult result;
+        private TraceResult result = new TraceResult();
+        private object lockObject = new object();
 
         private List<(string, string)> GetMethodsClasses()
         {
@@ -22,21 +24,31 @@ namespace Tracer
         }
         public void StartTrace()
         {
-            List<(string, string)> methodsClasses = GetMethodsClasses();
-            (string, string) methodClass = methodsClasses[methodsClasses.Count - 1];
+            lock (lockObject)
+            {
+                List<(string, string)> methodsClasses = GetMethodsClasses();
+                (string, string) methodClass = methodsClasses[0];
+                int threadId = Thread.CurrentThread.ManagedThreadId;
 
-            MethodResult methodResult = new MethodResult(DateTime.Now, methodClass.Item1, methodClass.Item2);
-            result.InsertMethodResult(methodResult, GetMethodsClasses());
+                MethodResult methodResult = new MethodResult(DateTime.Now, methodClass.Item1, methodClass.Item2);
+                result.InsertMethodResult(methodResult, methodsClasses, threadId);
+            }
         }
 
         public void StopTrace()
         {
-            throw new NotImplementedException();
+            lock (lockObject)
+            {
+                List<(string, string)> methodsClasses = GetMethodsClasses();
+                int threadId = Thread.CurrentThread.ManagedThreadId;
+
+                result.StopTrace(DateTime.Now, methodsClasses, threadId);
+            }
         }
 
         public TraceResult GetTraceResult()
         {
-            throw new NotImplementedException();
+            return result;
         }
     }
 }
