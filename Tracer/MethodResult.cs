@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
+using System.Text.Json.Serialization;
+using System.Xml.Serialization;
 
 namespace Tracer
 {
@@ -8,53 +11,34 @@ namespace Tracer
     {
         public string MethodName { get; set; }
         public string ClassName { get; set; }
-        private DateTime _startTime;
-        private DateTime _stopTime;
-        public double Time { get; set; }
-
-        public List<MethodResult> methodsResults { get; }
-        private (MethodResult, int) FindCallingMethod(List<(string, string)> methodsClasses, int lastStackDepth, int minDepth = 1)
+        public double ElapsedTime { get; set; }
+        public ImmutableList<MethodResult> InnerMethodsResults { get; }
+        public MethodResult(double time, string className, string methodName, ImmutableList<MethodResult> methodsResults)
         {
-            for (int i = lastStackDepth; i >= minDepth; i--)
-            {
-                foreach (MethodResult method in methodsResults)
-                {
-                    if (methodsClasses[i].Item1.Equals(method.ClassName) &&
-                        methodsClasses[i].Item2.Equals(method.MethodName))
-                    {
-                        return (method, i);
-                    }
-                }
-            }
-            return (null, -1);
-        }
-        public void InsertMethodResult(MethodResult methodResult, List<(string, string)> methodsClasses, int lastStackDepth)
-        {
-            (MethodResult, int) callingMethod = FindCallingMethod(methodsClasses, lastStackDepth);
-            if (callingMethod.Item1 != null)
-                callingMethod.Item1.InsertMethodResult(methodResult, methodsClasses, callingMethod.Item2 - 1);
-            else
-                methodsResults.Add(methodResult);
-        }
-        public double StopTrace(DateTime stopTime, List<(string, string)> methodsClasses, int lastStackDepth)
-        {
-            (MethodResult, int) callingMethod = FindCallingMethod(methodsClasses, lastStackDepth, 0);
-            if (callingMethod.Item1 != null)
-                return callingMethod.Item1.StopTrace(stopTime, methodsClasses, callingMethod.Item2);
-            else
-            {
-                _stopTime = stopTime;
-                Time = (_stopTime - _startTime).TotalMilliseconds;
-                return Time;
-            }
-        }
-        public MethodResult(DateTime startTime, string className, string methodName)
-        {
-            _startTime = startTime;
+            ElapsedTime = time;
             this.MethodName = methodName;
             this.ClassName = className;
-            methodsResults = new List<MethodResult>();
+            InnerMethodsResults = methodsResults;
         }
         public MethodResult() { }
+
+        public override bool Equals(object obj)
+        {
+            if (typeof(MethodResult) != obj.GetType()) return false;
+
+            MethodResult other = (MethodResult)obj;
+
+            if (MethodName != other.MethodName) return false;
+            if (ClassName != other.ClassName) return false;
+            if (Math.Abs(ElapsedTime - other.ElapsedTime) > 5) return false;
+
+            if (InnerMethodsResults.Count != other.InnerMethodsResults.Count) return false;
+
+            for (int i = 0; i < InnerMethodsResults.Count; i++)
+            {
+                if (!InnerMethodsResults[i].Equals(other.InnerMethodsResults[i])) return false;
+            }
+            return true;
+        }
     }
 }

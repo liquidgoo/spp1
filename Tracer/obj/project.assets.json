@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\smth\\походу уник\\spp\\spp1\\spp1\\Tracer\\Tracer.csproj",
-      "projectName": "Tracer",
-      "projectPath": "D:\\smth\\походу уник\\spp\\spp1\\spp1\\Tracer\\Tracer.csproj",
+      "projectUniqueName": "D:\\smth\\походу уник\\spp\\spp1\\spp1\\Tracer\\TracerProject.csproj",
+      "projectName": "TracerProject",
+      "projectPath": "D:\\smth\\походу уник\\spp\\spp1\\spp1\\Tracer\\TracerProject.csproj",
       "packagesPath": "C:\\Users\\nitor\\.nuget\\packages\\",
       "outputPath": "D:\\smth\\походу уник\\spp\\spp1\\spp1\\Tracer\\obj\\",
       "projectStyle": "PackageReference",

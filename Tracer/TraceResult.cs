@@ -6,43 +6,28 @@ namespace Tracer
     [Serializable]
     public class TraceResult
     {
-        public List<ThreadResult> ThreadsResults { get; }
+        public ImmutableList<ThreadResult> ThreadsResults { get; }
 
-        public void InsertMethodResult(MethodResult methodResult, List<(string, string)> methodsClasses, int threadId)
+        public TraceResult(ImmutableList<ThreadResult> threadsResults)
         {
-            ThreadResult currentThread = null;
-            foreach (ThreadResult threadResult in ThreadsResults)
-            {
-                if (threadId == threadResult.Id)
-                {
-                    currentThread = threadResult;
-                    break;
-                }
-            }
-            if (currentThread == null)
-            {
-                currentThread = new ThreadResult(threadId);
-                ThreadsResults.Add(currentThread);
-            }
-            currentThread.InsertMethodResult(methodResult, methodsClasses);
+            ThreadsResults = threadsResults;
         }
+        public TraceResult() { }
 
-        public void StopTrace(DateTime stopTime, List<(string, string)> methodsClasses, int threadId)
+        public override bool Equals(object obj)
         {
-            ThreadResult currentThread = null;
-            foreach (ThreadResult threadResult in ThreadsResults)
+            if (typeof(TraceResult) != obj.GetType()) return false;
+
+            TraceResult other = (TraceResult)obj;
+
+            if (ThreadsResults.Count != other.ThreadsResults.Count) return false;
+
+            for (int i = 0;  i < ThreadsResults.Count; i++)
             {
-                if (threadId == threadResult.Id)
-                {
-                    currentThread = threadResult;
-                    break;
-                }
+                if (!ThreadsResults[i].Equals(other.ThreadsResults[i])) return false;
             }
-            currentThread.StopTrace(stopTime, methodsClasses);
-        }
-        public TraceResult()
-        {
-            ThreadsResults = new List<ThreadResult>();
+
+            return true;
         }
     }
 }

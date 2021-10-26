@@ -1,0 +1,12 @@
+D:\smth\походу уник\spp\spp1\spp1\Tracer\bin\Debug\net5.0\TracerProject.deps.json
+D:\smth\походу уник\spp\spp1\spp1\Tracer\bin\Debug\net5.0\TracerProject.dll
+D:\smth\походу уник\spp\spp1\spp1\Tracer\bin\Debug\net5.0\ref\TracerProject.dll
+D:\smth\походу уник\spp\spp1\spp1\Tracer\bin\Debug\net5.0\TracerProject.pdb
+D:\smth\походу уник\spp\spp1\spp1\Tracer\obj\Debug\net5.0\TracerProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\smth\походу уник\spp\spp1\spp1\Tracer\obj\Debug\net5.0\TracerProject.AssemblyInfoInputs.cache
+D:\smth\походу уник\spp\spp1\spp1\Tracer\obj\Debug\net5.0\TracerProject.AssemblyInfo.cs
+D:\smth\походу уник\spp\spp1\spp1\Tracer\obj\Debug\net5.0\TracerProject.csproj.CoreCompileInputs.cache
+D:\smth\походу уник\spp\spp1\spp1\Tracer\obj\Debug\net5.0\TracerProject.dll
+D:\smth\походу уник\spp\spp1\spp1\Tracer\obj\Debug\net5.0\ref\TracerProject.dll
+D:\smth\походу уник\spp\spp1\spp1\Tracer\obj\Debug\net5.0\TracerProject.pdb
+D:\smth\походу уник\spp\spp1\spp1\Tracer\obj\Debug\net5.0\TracerProject.csprojAssemblyReference.cache
