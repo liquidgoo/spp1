@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TraceResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ThreadsResults>
+    <ThreadResult>
+      <Id>1</Id>
+      <Time>886.3035</Time>
+      <MethodsResults>
+        <MethodResult>
+          <MethodName>M1</MethodName>
+          <ClassName>Serialization.OuterClass</ClassName>
+          <ElapsedTime>273.9269</ElapsedTime>
+          <InnerMethodsResults>
+            <MethodResult>
+              <MethodName>M3</MethodName>
+              <ClassName>Serialization.OuterClass</ClassName>
+              <ElapsedTime>172.6522</ElapsedTime>
+              <InnerMethodsResults>
+                <MethodResult>
+                  <MethodName>M4</MethodName>
+                  <ClassName>Serialization.OuterClass</ClassName>
+                  <ElapsedTime>61.456</ElapsedTime>
+                  <InnerMethodsResults>
+                    <MethodResult>
+                      <MethodName>M5</MethodName>
+                      <ClassName>Serialization.InnerClass</ClassName>
+                      <ElapsedTime>20.9265</ElapsedTime>
+                      <InnerMethodsResults>
+                        <MethodResult>
+                          <MethodName>M8</MethodName>
+                          <ClassName>Serialization.InnerClass</ClassName>
+                          <ElapsedTime>0.29</ElapsedTime>
+                          <InnerMethodsResults />
+                        </MethodResult>
+                      </InnerMethodsResults>
+                    </MethodResult>
+                    <MethodResult>
+                      <MethodName>M6</MethodName>
+                      <ClassName>Serialization.InnerClass</ClassName>
+                      <ElapsedTime>20.0058</ElapsedTime>
+                      <InnerMethodsResults />
+                    </MethodResult>
+                  </InnerMethodsResults>
+                </MethodResult>
+              </InnerMethodsResults>
+            </MethodResult>
+          </InnerMethodsResults>
+        </MethodResult>
+        <MethodResult>
+          <MethodName>M2</MethodName>
+          <ClassName>Serialization.OuterClass</ClassName>
+          <ElapsedTime>471.8523</ElapsedTime>
+          <InnerMethodsResults>
+            <MethodResult>
+              <MethodName>M3</MethodName>
+              <ClassName>Serialization.OuterClass</ClassName>
+              <ElapsedTime>171.5859</ElapsedTime>
+              <InnerMethodsResults>
+                <MethodResult>
+                  <MethodName>M4</MethodName>
+                  <ClassName>Serialization.OuterClass</ClassName>
+                  <ElapsedTime>60.4724</ElapsedTime>
+                  <InnerMethodsResults>
+                    <MethodResult>
+                      <MethodName>M5</MethodName>
+                      <ClassName>Serialization.InnerClass</ClassName>
+                      <ElapsedTime>20.161</ElapsedTime>
+                      <InnerMethodsResults>
+                        <MethodResult>
+                          <MethodName>M8</MethodName>
+                          <ClassName>Serialization.InnerClass</ClassName>
+                          <ElapsedTime>0.0059</ElapsedTime>
+                          <InnerMethodsResults />
+                        </MethodResult>
+                      </InnerMethodsResults>
+                    </MethodResult>
+                    <MethodResult>
+                      <MethodName>M6</MethodName>
+                      <ClassName>Serialization.InnerClass</ClassName>
+                      <ElapsedTime>20.0059</ElapsedTime>
+                      <InnerMethodsResults />
+                    </MethodResult>
+                  </InnerMethodsResults>
+                </MethodResult>
+              </InnerMethodsResults>
+            </MethodResult>
+          </InnerMethodsResults>
+        </MethodResult>
+        <MethodResult>
+          <MethodName>M5</MethodName>
+          <ClassName>Serialization.InnerClass</ClassName>
+          <ElapsedTime>20.1083</ElapsedTime>
+          <InnerMethodsResults>
+            <MethodResult>
+              <MethodName>M8</MethodName>
+              <ClassName>Serialization.InnerClass</ClassName>
+              <ElapsedTime>0.0014</ElapsedTime>
+              <InnerMethodsResults />
+            </MethodResult>
+          </InnerMethodsResults>
+        </MethodResult>
+        <MethodResult>
+          <MethodName>M6</MethodName>
+          <ClassName>Serialization.InnerClass</ClassName>
+          <ElapsedTime>20.0021</ElapsedTime>
+          <InnerMethodsResults />
+        </MethodResult>
+        <MethodResult>
+          <MethodName>M6</MethodName>
+          <ClassName>Serialization.InnerClass</ClassName>
+          <ElapsedTime>20.0017</ElapsedTime>
+          <InnerMethodsResults />
+        </MethodResult>
+        <MethodResult>
+          <MethodName>M5</MethodName>
+          <ClassName>Serialization.InnerClass</ClassName>
+          <ElapsedTime>20.0837</ElapsedTime>
+          <InnerMethodsResults>
+            <MethodResult>
+              <MethodName>M8</MethodName>
+              <ClassName>Serialization.InnerClass</ClassName>
+              <ElapsedTime>0.0011</ElapsedTime>
+              <InnerMethodsResults />
+            </MethodResult>
+          </InnerMethodsResults>
+        </MethodResult>
+        <MethodResult>
+          <MethodName>M4</MethodName>
+          <ClassName>Serialization.OuterClass</ClassName>
+          <ElapsedTime>60.3285</ElapsedTime>
+          <InnerMethodsResults>
+            <MethodResult>
+              <MethodName>M5</MethodName>
+              <ClassName>Serialization.InnerClass</ClassName>
+              <ElapsedTime>20.1056</ElapsedTime>
+              <InnerMethodsResults>
+                <MethodResult>
+                  <MethodName>M8</MethodName>
+                  <ClassName>Serialization.InnerClass</ClassName>
+                  <ElapsedTime>0.0013</ElapsedTime>
+                  <InnerMethodsResults />
+                </MethodResult>
+              </InnerMethodsResults>
+            </MethodResult>
+            <MethodResult>
+              <MethodName>M6</MethodName>
+              <ClassName>Serialization.InnerClass</ClassName>
+              <ElapsedTime>20.0028</ElapsedTime>
+              <InnerMethodsResults />
+            </MethodResult>
+          </InnerMethodsResults>
+        </MethodResult>
+      </MethodsResults>
+    </ThreadResult>
+    <ThreadResult>
+      <Id>4</Id>
+      <Time>885.9788</Time>
+      <MethodsResults>
+        <MethodResult>
+          <MethodName>M1</MethodName>
+          <ClassName>Serialization.OuterClass</ClassName>
+          <ElapsedTime>273.3773</ElapsedTime>
+          <InnerMethodsResults>
+            <MethodResult>
+              <MethodName>M3</MethodName>
+              <ClassName>Serialization.OuterClass</ClassName>
+              <ElapsedTime>172.6806</ElapsedTime>
+              <InnerMethodsResults>
+                <MethodResult>
+                  <MethodName>M4</MethodName>
+                  <ClassName>Serialization.OuterClass</ClassName>
+                  <ElapsedTime>61.4646</ElapsedTime>
+                  <InnerMethodsResults>
+                    <MethodResult>
+                      <MethodName>M5</MethodName>
+                      <ClassName>Serialization.InnerClass</ClassName>
+                      <ElapsedTime>20.8798</ElapsedTime>
+                      <InnerMethodsResults>
+                        <MethodResult>
+                          <MethodName>M8</MethodName>
+                          <ClassName>Serialization.InnerClass</ClassName>
+                          <ElapsedTime>0.2541</ElapsedTime>
+                          <InnerMethodsResults />
+                        </MethodResult>
+                      </InnerMethodsResults>
+                    </MethodResult>
+                    <MethodResult>
+                      <MethodName>M6</MethodName>
+                      <ClassName>Serialization.InnerClass</ClassName>
+                      <ElapsedTime>20.0023</ElapsedTime>
+                      <InnerMethodsResults />
+                    </MethodResult>
+                  </InnerMethodsResults>
+                </MethodResult>
+              </InnerMethodsResults>
+            </MethodResult>
+          </InnerMethodsResults>
+        </MethodResult>
+        <MethodResult>
+          <MethodName>M2</MethodName>
+          <ClassName>Serialization.OuterClass</ClassName>
+          <ElapsedTime>472.0516</ElapsedTime>
+          <InnerMethodsResults>
+            <MethodResult>
+              <MethodName>M3</MethodName>
+              <ClassName>Serialization.OuterClass</ClassName>
+              <ElapsedTime>171.8488</ElapsedTime>
+              <InnerMethodsResults>
+                <MethodResult>
+                  <MethodName>M4</MethodName>
+                  <ClassName>Serialization.OuterClass</ClassName>
+                  <ElapsedTime>60.6629</ElapsedTime>
+                  <InnerMethodsResults>
+                    <MethodResult>
+                      <MethodName>M5</MethodName>
+                      <ClassName>Serialization.InnerClass</ClassName>
+                      <ElapsedTime>20.253</ElapsedTime>
+                      <InnerMethodsResults>
+                        <MethodResult>
+                          <MethodName>M8</MethodName>
+                          <ClassName>Serialization.InnerClass</ClassName>
+                          <ElapsedTime>0.0016</ElapsedTime>
+                          <InnerMethodsResults />
+                        </MethodResult>
+                      </InnerMethodsResults>
+                    </MethodResult>
+                    <MethodResult>
+                      <MethodName>M6</MethodName>
+                      <ClassName>Serialization.InnerClass</ClassName>
+                      <ElapsedTime>20.0029</ElapsedTime>
+                      <InnerMethodsResults />
+                    </MethodResult>
+                  </InnerMethodsResults>
+                </MethodResult>
+              </InnerMethodsResults>
+            </MethodResult>
+          </InnerMethodsResults>
+        </MethodResult>
+        <MethodResult>
+          <MethodName>M5</MethodName>
+          <ClassName>Serialization.InnerClass</ClassName>
+          <ElapsedTime>20.1098</ElapsedTime>
+          <InnerMethodsResults>
+            <MethodResult>
+              <MethodName>M8</MethodName>
+              <ClassName>Serialization.InnerClass</ClassName>
+              <ElapsedTime>0.0009</ElapsedTime>
+              <InnerMethodsResults />
+            </MethodResult>
+          </InnerMethodsResults>
+        </MethodResult>
+        <MethodResult>
+          <MethodName>M6</MethodName>
+          <ClassName>Serialization.InnerClass</ClassName>
+          <ElapsedTime>20.0017</ElapsedTime>
+          <InnerMethodsResults />
+        </MethodResult>
+        <MethodResult>
+          <MethodName>M6</MethodName>
+          <ClassName>Serialization.InnerClass</ClassName>
+          <ElapsedTime>20.0017</ElapsedTime>
+          <InnerMethodsResults />
+        </MethodResult>
+        <MethodResult>
+          <MethodName>M5</MethodName>
+          <ClassName>Serialization.InnerClass</ClassName>
+          <ElapsedTime>20.0941</ElapsedTime>
+          <InnerMethodsResults>
+            <MethodResult>
+              <MethodName>M8</MethodName>
+              <ClassName>Serialization.InnerClass</ClassName>
+              <ElapsedTime>0.0005</ElapsedTime>
+              <InnerMethodsResults />
+            </MethodResult>
+          </InnerMethodsResults>
+        </MethodResult>
+        <MethodResult>
+          <MethodName>M4</MethodName>
+          <ClassName>Serialization.OuterClass</ClassName>
+          <ElapsedTime>60.3426</ElapsedTime>
+          <InnerMethodsResults>
+            <MethodResult>
+              <MethodName>M5</MethodName>
+              <ClassName>Serialization.InnerClass</ClassName>
+              <ElapsedTime>20.1253</ElapsedTime>
+              <InnerMethodsResults>
+                <MethodResult>
+                  <MethodName>M8</MethodName>
+                  <ClassName>Serialization.InnerClass</ClassName>
+                  <ElapsedTime>0.0008</ElapsedTime>
+                  <InnerMethodsResults />
+                </MethodResult>
+              </InnerMethodsResults>
+            </MethodResult>
+            <MethodResult>
+              <MethodName>M6</MethodName>
+              <ClassName>Serialization.InnerClass</ClassName>
+              <ElapsedTime>20.0017</ElapsedTime>
+              <InnerMethodsResults />
+            </MethodResult>
+          </InnerMethodsResults>
+        </MethodResult>
+      </MethodsResults>
+    </ThreadResult>
+  </ThreadsResults>
+</TraceResult>ults>
+</TraceResult>              <MethodResult>
+                      <fileName>D:\smth\походу уник\spp\spp1\spp1\Serialization\CommonCase.cs</fileName>
+                      <line>131</line>
+                      <MethodName>M5</MethodName>
+                      <ClassName>Serialization.InnerClass</ClassName>
+                      <Time>31.0237</Time>
+                      <MethodsResults>
+                        <MethodResult>
+                          <fileName>D:\smth\походу уник\spp\spp1\spp1\Serialization\CommonCase.cs</fileName>
+                          <line>64</line>
+                          <MethodName>M8</MethodName>
+                          <ClassName>Serialization.InnerClass</ClassName>
+                          <Time>0.0642</Time>
+                          <MethodsResults />
+                        </MethodResult>
+                      </MethodsResults>
+                    </MethodResult>
+                    <MethodResult>
+                      <fileName>D:\smth\походу уник\spp\spp1\spp1\Serialization\CommonCase.cs</fileName>
+                      <line>133</line>
+                      <MethodName>M6</MethodName>
+                      <ClassName>Serialization.InnerClass</ClassName>
+                      <Time>30.6014</Time>
+                      <MethodsResults />
+                    </MethodResult>
+                  </MethodsResults>
+                </MethodResult>
+              </MethodsResults>
+            </MethodResult>
+          </MethodsResults>
+        </MethodResult>
+        <MethodResult>
+          <fileName>D:\smth\походу уник\spp\spp1\spp1\Serialization\CommonCase.cs</fileName>
+          <line>97</line>
+          <MethodName>M5</MethodName>
+          <ClassName>Serialization.InnerClass</ClassName>
+          <Time>30.7919</Time>
+          <MethodsResults>
+            <MethodResult>
+              <fileName>D:\smth\походу уник\spp\spp1\spp1\Serialization\CommonCase.cs</fileName>
+              <line>64</line>
+              <MethodName>M8</MethodName>
+              <ClassName>Serialization.InnerClass</ClassName>
+              <Time>0.0906</Time>
+              <MethodsResults />
+            </MethodResult>
+          </MethodsResults>
+        </MethodResult>
+        <MethodResult>
+          <fileName>D:\smth\походу уник\spp\spp1\spp1\Serialization\CommonCase.cs</fileName>
+          <line>98</line>
+          <MethodName>M6</MethodName>
+          <ClassName>Serialization.InnerClass</ClassName>
+          <Time>30.6861</Time>
+          <MethodsResults />
+        </MethodResult>
+        <MethodResult>
+          <fileName>D:\smth\походу уник\spp\spp1\spp1\Serialization\CommonCase.cs</fileName>
+          <line>99</line>
+          <MethodName>M6</MethodName>
+          <ClassName>Serialization.InnerClass</ClassName>
+          <Time>31.029</Time>
+          <MethodsResults />
+        </MethodResult>
+        <MethodResult>
+          <fileName>D:\smth\походу уник\spp\spp1\spp1\Serialization\CommonCase.cs</fileName>
+          <line>100</line>
+          <MethodName>M5</MethodName>
+          <ClassName>Serialization.InnerClass</ClassName>
+          <Time>32.2288</Time>
+          <MethodsResults>
+            <MethodResult>
+              <fileName>D:\smth\походу уник\spp\spp1\spp1\Serialization\CommonCase.cs</fileName>
+              <line>64</line>
+              <MethodName>M8</MethodName>
+              <ClassName>Serialization.InnerClass</ClassName>
+              <Time>0.0449</Time>
+              <MethodsResults />
+            </MethodResult>
+          </MethodsResults>
+        </MethodResult>
+        <MethodResult>
+          <fileName>D:\smth\походу уник\spp\spp1\spp1\Serialization\CommonCase.cs</fileName>
+          <line>101</line>
+          <MethodName>M4</MethodName>
+          <ClassName>Serialization.OuterClass</ClassName>
+          <Time>90.9303</Time>
+          <MethodsResults>
+            <MethodResult>
+              <fileName>D:\smth\походу уник\spp\spp1\spp1\Serialization\CommonCase.cs</fileName>
+              <line>131</line>
+              <MethodName>M5</MethodName>
+              <ClassName>Serialization.InnerClass</ClassName>
+              <Time>30.8593</Time>
+              <MethodsResults>
+                <MethodResult>
+                  <fileName>D:\smth\походу уник\spp\spp1\spp1\Serialization\CommonCase.cs</fileName>
+                  <line>64</line>
+                  <MethodName>M8</MethodName>
+                  <ClassName>Serialization.InnerClass</ClassName>
+                  <Time>0.0547</Time>
+                  <MethodsResults />
+                </MethodResult>
+              </MethodsResults>
+            </MethodResult>
+            <MethodResult>
+              <fileName>D:\smth\походу уник\spp\spp1\spp1\Serialization\CommonCase.cs</fileName>
+              <line>133</line>
+              <MethodName>M6</MethodName>
+              <ClassName>Serialization.InnerClass</ClassName>
+              <Time>30.4695</Time>
+              <MethodsResults />
+            </MethodResult>
+          </MethodsResults>
+        </MethodResult>
+      </MethodsResults>
+    </ThreadResult>
+  </ThreadsResults>
+</TraceResult>

@@ -12,7 +12,7 @@ namespace Serialization
     {
         public void Serialize(TraceResult result);
 
-        public 
+        public string GetSerializedResult();
        
     }
 }

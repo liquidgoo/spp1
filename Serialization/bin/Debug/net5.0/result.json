@@ -1,0 +1,307 @@
+{
+  "ThreadsResults": [
+    {
+      "Id": 1,
+      "Time": 886.3035,
+      "MethodsResults": [
+        {
+          "MethodName": "M1",
+          "ClassName": "Serialization.OuterClass",
+          "ElapsedTime": 273.9269,
+          "InnerMethodsResults": [
+            {
+              "MethodName": "M3",
+              "ClassName": "Serialization.OuterClass",
+              "ElapsedTime": 172.6522,
+              "InnerMethodsResults": [
+                {
+                  "MethodName": "M4",
+                  "ClassName": "Serialization.OuterClass",
+                  "ElapsedTime": 61.456,
+                  "InnerMethodsResults": [
+                    {
+                      "MethodName": "M5",
+                      "ClassName": "Serialization.InnerClass",
+                      "ElapsedTime": 20.9265,
+                      "InnerMethodsResults": [
+                        {
+                          "MethodName": "M8",
+                          "ClassName": "Serialization.InnerClass",
+                          "ElapsedTime": 0.29,
+                          "InnerMethodsResults": []
+                        }
+                      ]
+                    },
+                    {
+                      "MethodName": "M6",
+                      "ClassName": "Serialization.InnerClass",
+                      "ElapsedTime": 20.0058,
+                      "InnerMethodsResults": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "MethodName": "M2",
+          "ClassName": "Serialization.OuterClass",
+          "ElapsedTime": 471.8523,
+          "InnerMethodsResults": [
+            {
+              "MethodName": "M3",
+              "ClassName": "Serialization.OuterClass",
+              "ElapsedTime": 171.5859,
+              "InnerMethodsResults": [
+                {
+                  "MethodName": "M4",
+                  "ClassName": "Serialization.OuterClass",
+                  "ElapsedTime": 60.4724,
+                  "InnerMethodsResults": [
+                    {
+                      "MethodName": "M5",
+                      "ClassName": "Serialization.InnerClass",
+                      "ElapsedTime": 20.161,
+                      "InnerMethodsResults": [
+                        {
+                          "MethodName": "M8",
+                          "ClassName": "Serialization.InnerClass",
+                          "ElapsedTime": 0.0059,
+                          "InnerMethodsResults": []
+                        }
+                      ]
+                    },
+                    {
+                      "MethodName": "M6",
+                      "ClassName": "Serialization.InnerClass",
+                      "ElapsedTime": 20.0059,
+                      "InnerMethodsResults": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "MethodName": "M5",
+          "ClassName": "Serialization.InnerClass",
+          "ElapsedTime": 20.1083,
+          "InnerMethodsResults": [
+            {
+              "MethodName": "M8",
+              "ClassName": "Serialization.InnerClass",
+              "ElapsedTime": 0.0014,
+              "InnerMethodsResults": []
+            }
+          ]
+        },
+        {
+          "MethodName": "M6",
+          "ClassName": "Serialization.InnerClass",
+          "ElapsedTime": 20.0021,
+          "InnerMethodsResults": []
+        },
+        {
+          "MethodName": "M6",
+          "ClassName": "Serialization.InnerClass",
+          "ElapsedTime": 20.0017,
+          "InnerMethodsResults": []
+        },
+        {
+          "MethodName": "M5",
+          "ClassName": "Serialization.InnerClass",
+          "ElapsedTime": 20.0837,
+          "InnerMethodsResults": [
+            {
+              "MethodName": "M8",
+              "ClassName": "Serialization.InnerClass",
+              "ElapsedTime": 0.0011,
+              "InnerMethodsResults": []
+            }
+          ]
+        },
+        {
+          "MethodName": "M4",
+          "ClassName": "Serialization.OuterClass",
+          "ElapsedTime": 60.3285,
+          "InnerMethodsResults": [
+            {
+              "MethodName": "M5",
+              "ClassName": "Serialization.InnerClass",
+              "ElapsedTime": 20.1056,
+              "InnerMethodsResults": [
+                {
+                  "MethodName": "M8",
+                  "ClassName": "Serialization.InnerClass",
+                  "ElapsedTime": 0.0013,
+                  "InnerMethodsResults": []
+                }
+              ]
+            },
+            {
+              "MethodName": "M6",
+              "ClassName": "Serialization.InnerClass",
+              "ElapsedTime": 20.0028,
+              "InnerMethodsResults": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Time": 885.9788,
+      "MethodsResults": [
+        {
+          "MethodName": "M1",
+          "ClassName": "Serialization.OuterClass",
+          "ElapsedTime": 273.3773,
+          "InnerMethodsResults": [
+            {
+              "MethodName": "M3",
+              "ClassName": "Serialization.OuterClass",
+              "ElapsedTime": 172.6806,
+              "InnerMethodsResults": [
+                {
+                  "MethodName": "M4",
+                  "ClassName": "Serialization.OuterClass",
+                  "ElapsedTime": 61.4646,
+                  "InnerMethodsResults": [
+                    {
+                      "MethodName": "M5",
+                      "ClassName": "Serialization.InnerClass",
+                      "ElapsedTime": 20.8798,
+                      "InnerMethodsResults": [
+                        {
+                          "MethodName": "M8",
+                          "ClassName": "Serialization.InnerClass",
+                          "ElapsedTime": 0.2541,
+                          "InnerMethodsResults": []
+                        }
+                      ]
+                    },
+                    {
+                      "MethodName": "M6",
+                      "ClassName": "Serialization.InnerClass",
+                      "ElapsedTime": 20.0023,
+                      "InnerMethodsResults": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "MethodName": "M2",
+          "ClassName": "Serialization.OuterClass",
+          "ElapsedTime": 472.0516,
+          "InnerMethodsResults": [
+            {
+              "MethodName": "M3",
+              "ClassName": "Serialization.OuterClass",
+              "ElapsedTime": 171.8488,
+              "InnerMethodsResults": [
+                {
+                  "MethodName": "M4",
+                  "ClassName": "Serialization.OuterClass",
+                  "ElapsedTime": 60.6629,
+                  "InnerMethodsResults": [
+                    {
+                      "MethodName": "M5",
+                      "ClassName": "Serialization.InnerClass",
+                      "ElapsedTime": 20.253,
+                      "InnerMethodsResults": [
+                        {
+                          "MethodName": "M8",
+                          "ClassName": "Serialization.InnerClass",
+                          "ElapsedTime": 0.0016,
+                          "InnerMethodsResults": []
+                        }
+                      ]
+                    },
+                    {
+                      "MethodName": "M6",
+                      "ClassName": "Serialization.InnerClass",
+                      "ElapsedTime": 20.0029,
+                      "InnerMethodsResults": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "MethodName": "M5",
+          "ClassName": "Serialization.InnerClass",
+          "ElapsedTime": 20.1098,
+          "InnerMethodsResults": [
+            {
+              "MethodName": "M8",
+              "ClassName": "Serialization.InnerClass",
+              "ElapsedTime": 0.0009,
+              "InnerMethodsResults": []
+            }
+          ]
+        },
+        {
+          "MethodName": "M6",
+          "ClassName": "Serialization.InnerClass",
+          "ElapsedTime": 20.0017,
+          "InnerMethodsResults": []
+        },
+        {
+          "MethodName": "M6",
+          "ClassName": "Serialization.InnerClass",
+          "ElapsedTime": 20.0017,
+          "InnerMethodsResults": []
+        },
+        {
+          "MethodName": "M5",
+          "ClassName": "Serialization.InnerClass",
+          "ElapsedTime": 20.0941,
+          "InnerMethodsResults": [
+            {
+              "MethodName": "M8",
+              "ClassName": "Serialization.InnerClass",
+              "ElapsedTime": 0.0005,
+              "InnerMethodsResults": []
+            }
+          ]
+        },
+        {
+          "MethodName": "M4",
+          "ClassName": "Serialization.OuterClass",
+          "ElapsedTime": 60.3426,
+          "InnerMethodsResults": [
+            {
+              "MethodName": "M5",
+              "ClassName": "Serialization.InnerClass",
+              "ElapsedTime": 20.1253,
+              "InnerMethodsResults": [
+                {
+                  "MethodName": "M8",
+                  "ClassName": "Serialization.InnerClass",
+                  "ElapsedTime": 0.0008,
+                  "InnerMethodsResults": []
+                }
+              ]
+            },
+            {
+              "MethodName": "M6",
+              "ClassName": "Serialization.InnerClass",
+              "ElapsedTime": 20.0017,
+              "InnerMethodsResults": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}     ]
+    }
+  ]
+}

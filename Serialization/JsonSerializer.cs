@@ -8,11 +8,17 @@ namespace Serialization
 {
     public class JsonSerializer : ISerializer
     {
-        public void Serialize(Stream outputStream, TraceResult result)
+        private string _serializedResult;
+
+        public string GetSerializedResult()
+        {
+            return _serializedResult;
+        }
+
+        public void Serialize( TraceResult result)
         {
             var options = new JsonSerializerOptions { WriteIndented = true };
-            byte[] bytes = System.Text.Json.JsonSerializer.SerializeToUtf8Bytes(result, options);
-            outputStream.Write(bytes);
+            _serializedResult = System.Text.Json.JsonSerializer.Serialize(result, options);
         }
     }
 }
